@@ -8,11 +8,11 @@
 ---
 
 ## 🔥 **What I Do**
-- 📊 **Data Storytelling** – Turning numbers into **narratives that drive action**.
-- 📈 **Business Intelligence & Reporting** – Creating **interactive dashboards** and insights.
-- 🛠️ **SQL, Python, R, Tableau, Power BI** – Leveraging tools for analysis & visualization.
-- 🎯 **Data Cleaning & Processing** – Ensuring **accuracy and consistency** in datasets.
-- 🔍 **Exploratory Data Analysis (EDA)** – Identifying **patterns, trends, and correlations**.
+📊 **Data Storytelling** – Turning numbers into **narratives that drive action**.
+📈 **Business Intelligence & Reporting** – Creating **interactive dashboards** and insights.
+🛠️ **SQL, Python, R, Tableau, Power BI** – Leveraging tools for analysis & visualization.
+🎯 **Data Cleaning & Processing** – Ensuring **accuracy and consistency** in datasets.
+🔍 **Exploratory Data Analysis (EDA)** – Identifying **patterns, trends, and correlations**.
 
 ---
 
