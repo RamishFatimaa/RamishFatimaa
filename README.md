@@ -45,5 +45,5 @@
 
 ---
 
-⭐ **Fun Fact:** _"A great chart is worth a thousand numbers!"_ 📊🎯  
+⭐ **Fun Fact:** _"I can't start my day without Chai"_ :
 💡 _“Data storytelling bridges the gap between analysis and decision-making.”_  
