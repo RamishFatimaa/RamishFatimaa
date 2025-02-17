@@ -1,8 +1,8 @@
-<h1 align="left">👋 Hi, I'm Ramish Fatima! 🚀</h1>
+<h1 align="center">👋 Hi, I'm Ramish Fatima! 🚀</h1>
 
 <p align="left">
-  <strong>A Data Analyst passionate about transforming raw data into actionable insights.</strong><br>
-  I love <strong>digging into data, uncovering trends</strong>, and translating complex numbers into <strong>compelling stories</strong> that drive strategic decisions.
+  A Data Analyst passionate about transforming raw data into actionable insights.<br>
+  I love digging into data, uncovering trends, and translating complex numbers into stories that drive strategic decisions.
 </p>
 
 <p align="left">
@@ -11,44 +11,81 @@
 
 ---
 
+
 ## 🚀 What I Do
+✨ **Transforming raw data into impactful insights** | 📊 **Making data-driven decisions clear, powerful, and accessible**
+
+
 
 <table>
   <tr>
-    <td align="center" width="200">
-      <img src="https://img.icons8.com/fluency/48/000000/presentation.png"/><br>
-      <strong>Data Storytelling</strong><br>
-      <span style="font-size: 14px;">Turning numbers into <br>narratives that drive action.</span>
+    <td align="center" width="320" height="220">
+      <img src="https://cdn-icons-png.flaticon.com/128/12489/12489873.png" width="60"/><br>
+      <strong style="font-size: 20px;">Data Cleaning & Preprocessing</strong><br><br>
+      <div align="left">
+        🟢 Handling Missing Data <br>
+        🔍 Outlier Detection <br>
+        ⚙️ Feature Engineering <br>
+        📊 Data Standardization
+      </div>
     </td>
-    <td align="center" width="200">
-      <img src="https://img.icons8.com/fluency/48/000000/business-report.png"/><br>
-      <strong>Business Intelligence</strong><br>
-      <span style="font-size: 14px;">Creating <br>interactive dashboards & insights.</span>
+    <td align="center" width="320" height="220">
+      <img src="https://cdn-icons-png.flaticon.com/128/3590/3590556.png" width="60"/><br>
+      <strong style="font-size: 20px;">Statistical Analysis & Experimentation</strong><br><br>
+      <div align="left">
+        📌 A/B Testing <br>
+        📊 Hypothesis Testing <br>
+        📉 Bayesian Statistics <br>
+        🎯 Confidence Intervals
+      </div>
     </td>
-    <td align="center" width="200">
-      <img src="https://img.icons8.com/fluency/48/000000/database.png"/><br>
-      <strong>Technical Proficiency</strong><br>
-      <span style="font-size: 14px;">SQL, Python, R, <br>Tableau, Power BI.</span>
+    <td align="center" width="320" height="220">
+      <img src="https://cdn-icons-png.flaticon.com/128/16139/16139728.png" width="60"/><br>
+      <strong style="font-size: 20px;">Exploratory Data Analysis (EDA)</strong><br><br>
+      <div align="left">
+        📊 Descriptive Statistics <br>
+        📌 Feature Selection (PCA, t-SNE) <br>
+        📈 Correlation Analysis <br>
+        📊 Data Visualization
+      </div>
     </td>
   </tr>
   <tr>
-    <td align="center" width="200">
-      <img src="https://img.icons8.com/fluency/48/000000/data-configuration.png"/><br>
-      <strong>Data Cleaning & Processing</strong><br>
-      <span style="font-size: 14px;">Ensuring accuracy <br>and consistency.</span>
+    <td align="center" width="320" height="220">
+      <img src="https://cdn-icons-png.flaticon.com/128/11911/11911350.png" width="60"/><br>
+      <strong style="font-size: 20px;">Business Intelligence & Reporting</strong><br><br>
+      <div align="left">
+        📊 KPI Dashboards <br>
+        📡 Real-Time Data Monitoring <br>
+        ⚙️ ETL & Data Pipelines <br>
+        🔍 Drill-Down Analysis
+      </div>
     </td>
-    <td align="center" width="200">
-      <img src="https://img.icons8.com/fluency/48/000000/line-chart.png"/><br>
-      <strong>Exploratory Data Analysis</strong><br>
-      <span style="font-size: 14px;">Identifying patterns, <br>trends, and correlations.</span>
+    <td align="center" width="320" height="220">
+      <img src="https://cdn-icons-png.flaticon.com/128/4616/4616734.png" width="60"/><br>
+      <strong style="font-size: 20px;">Predictive Analytics & Machine Learning</strong><br><br>
+      <div align="left">
+        🤖 GBR (XGBoost, LightGBM) <br>
+        📈 Decision Trees & Random Forest <br>
+        📌 Support Vector Machines (SVM) <br>
+        ⚙️ Hyperparameter Tuning
+      </div>
     </td>
-    <td align="center" width="200">
-      <img src="https://img.icons8.com/fluency/48/000000/decision-making.png"/><br>
-      <strong>Data-Driven Strategies</strong><br>
-      <span style="font-size: 14px;">Using analytics to <br>drive business decisions.</span>
+    <td align="center" width="320" height="220">
+      <img src="https://cdn-icons-png.flaticon.com/128/2856/2856300.png" width="60"/><br>
+      <strong style="font-size: 20px;">Time Series Forecasting</strong><br><br>
+      <div align="left">
+        📊 ARIMA & SARIMA <br>
+        📉 Prophet & Seasonal Decomposition <br>
+        📈 Trend & Seasonality Analysis <br>
+        📌 Anomaly Detection
+      </div>
     </td>
   </tr>
 </table>
+
+</div>
+
 
 ---
 
