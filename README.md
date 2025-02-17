@@ -138,8 +138,12 @@
 ## ✨ Connect with Me
 <p>
   <a href="https://www.linkedin.com/in/ramishfatima" target="_blank">
-    <img src="https://img.icons8.com/color/48/000000/linkedin.png" alt="LinkedIn" />
+    <img src="https://cdn-icons-png.flaticon.com/128/174/174857.png" width="48" alt="LinkedIn" />
   </a>
+</p>
+
+
+
   <a href="mailto:fatima.r@northeastern.edu">
     <img src="https://img.icons8.com/color/48/000000/gmail-new.png" alt="Email" />
   </a>
