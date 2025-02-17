@@ -1,4 +1,4 @@
-<h1 align="center">👋 Hi, I'm Ramish Fatima! 🚀</h1>
+<h1 align="center">👋 Hi, I'm Ramish Fatima! </h1>
 
 <p align="left">
   A Data Analyst passionate about transforming raw data into actionable insights.<br>
