@@ -129,6 +129,17 @@
 
 ---
 
+![Total Projects](https://img.shields.io/badge/Total%20Projects-15-blue?style=for-the-badge)
+![Most Used Topic: Python](https://img.shields.io/badge/Most%20Used%20Topic-Python-orange?style=for-the-badge)
+![Unique Topics](https://img.shields.io/badge/Unique%20Topics-10-green?style=for-the-badge)
+
+## 📊 Repository Topic Statistics
+<!-- TOPIC STATS START -->
+Updating...
+<!-- TOPIC STATS END -->
+
+---
+
 ## 🌍 Portfolio
 🚀 **Explore my work here:**  
 🔗 **[View My Portfolio](https://ramishfatima.com)**  
