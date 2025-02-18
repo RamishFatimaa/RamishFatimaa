@@ -130,10 +130,42 @@
 ---
 
 
-## 📊 Repository Topic Statistics
-<!-- TOPIC STATS START -->
-Updating...
-<!-- TOPIC STATS END -->
+## Repository Topics Stats 🚀
+
+### 🏆 **Data Analysis & Machine Learning**
+![Tableau](https://img.shields.io/badge/Tableau-3-blue?style=for-the-badge)
+![Machine Learning](https://img.shields.io/badge/Machine%20Learning-2-yellow?style=for-the-badge)
+![Exploratory Data Analysis](https://img.shields.io/badge/EDA-2-green?style=for-the-badge)
+![Feature Engineering](https://img.shields.io/badge/Feature%20Engineering-1-orange?style=for-the-badge)
+![Gradient Boosting](https://img.shields.io/badge/Gradient%20Boosting-1-teal?style=for-the-badge)
+![Random Forest](https://img.shields.io/badge/Random%20Forest-1-brown?style=for-the-badge)
+
+### 📊 **Finance & Business Analytics**
+![Financial Analysis](https://img.shields.io/badge/Financial%20Analysis-1-red?style=for-the-badge)
+![Stock Market Analysis](https://img.shields.io/badge/Stock%20Analysis-2-blueviolet?style=for-the-badge)
+![Market Capitalization](https://img.shields.io/badge/Market%20Capitalization-1-gray?style=for-the-badge)
+![Credit Risk](https://img.shields.io/badge/Credit%20Risk-1-lightgrey?style=for-the-badge)
+![Loan Risk Analysis](https://img.shields.io/badge/Loan%20Risk%20Analysis-1-darkred?style=for-the-badge)
+![Predictive Modeling](https://img.shields.io/badge/Predictive%20Modeling-1-lightblue?style=for-the-badge)
+
+### 🔬 **Medical & Healthcare Projects**
+![Medical Data Analysis](https://img.shields.io/badge/Medical%20Data%20Analysis-1-lightgreen?style=for-the-badge)
+![Ocular Disease Prediction](https://img.shields.io/badge/Ocular%20Disease%20Prediction-1-green?style=for-the-badge)
+![NLP for Healthcare](https://img.shields.io/badge/NLP%20for%20Healthcare-1-deeppink?style=for-the-badge)
+
+### ⚙️ **Programming & Technologies**
+![Python](https://img.shields.io/badge/Python-5-blue?style=for-the-badge)
+![R](https://img.shields.io/badge/R-3-purple?style=for-the-badge)
+![JavaScript](https://img.shields.io/badge/JavaScript-1-yellow?style=for-the-badge)
+![Flask API](https://img.shields.io/badge/Flask%20API-1-black?style=for-the-badge)
+![Chatbot](https://img.shields.io/badge/Chatbot-1-cyan?style=for-the-badge)
+![LSTM](https://img.shields.io/badge/LSTM-1-brown?style=for-the-badge)
+
+### 🏢 **Business & Grant Management**
+![Company Award Data Analysis](https://img.shields.io/badge/Company%20Award%20Analysis-1-darkblue?style=for-the-badge)
+![Grants Management](https://img.shields.io/badge/Grants%20Management-1-orange?style=for-the-badge)
+
+---
 
 
 
