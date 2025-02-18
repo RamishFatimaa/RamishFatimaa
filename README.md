@@ -129,9 +129,12 @@
 
 ---
 
-## 📌 Keyword Stats (Topics Used in My Projects)
-<!-- TOPICS START -->
-<!-- TOPICS END -->
+
+## 📊 Repository Topic Statistics
+<!-- TOPIC STATS START -->
+Updating...
+<!-- TOPIC STATS END -->
+
 
 
 ## 🌍 Portfolio
