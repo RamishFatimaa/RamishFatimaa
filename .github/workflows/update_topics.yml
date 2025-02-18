@@ -1,31 +1,39 @@
-name: Update Topic Stats in README
+name: Update Topic Stats
 
 on:
   schedule:
     - cron: "0 0 * * *"  # Runs daily
-  workflow_dispatch:  # Allows manual trigger
+  workflow_dispatch:
 
 jobs:
   update-readme:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout Repository
+      - name: Checkout Repo
         uses: actions/checkout@v3
 
-      - name: Fetch Repository Topics
-        run: |
-          echo "## 📌 Keyword Stats (Topics Used in My Projects)" > TOPICS.md
-          echo "" >> TOPICS.md
-          curl -s -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" "https://api.github.com/users/RamishFatimaa/repos?per_page=100" | jq -r '.[] | .topics[]' | sort | uniq -c | sort -nr | while read count topic; do echo "- **$topic**: $count projects" >> TOPICS.md; done
+      - name: Setup Python
+        uses: actions/setup-python@v3
+        with:
+          python-version: "3.x"
 
-      - name: Update README
-        run: |
-          sed -i '/<!-- TOPICS START -->/,/<!-- TOPICS END -->/c\<!-- TOPICS START -->\n'$(cat TOPICS.md)'\n<!-- TOPICS END -->' README.md
+      - name: Install Dependencies
+        run: pip install matplotlib requests
 
-      - name: Commit Changes
+      - name: Fetch and Process Topic Stats
+        run: python generate_topic_stats.py
+
+      - name: Update README with Topic Stats
         run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add README.md
-          git commit -m "Updated keyword stats in README" || echo "No changes to commit"
+          echo "## 📊 Repository Topic Statistics" > TOPIC_STATS.md
+          cat topic_stats.json >> TOPIC_STATS.md
+          echo "![Topic Stats](topic_stats.png)" >> TOPIC_STATS.md
+          sed -i '/<!-- TOPIC STATS START -->/,/<!-- TOPIC STATS END -->/c\<!-- TOPIC STATS START -->\n'$(cat TOPIC_STATS.md)'\n<!-- TOPIC STATS END -->' README.md
+
+      - name: Commit & Push Changes
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+          git add README.md topic_stats.json topic_stats.png
+          git commit -m "Updated repository topic stats"
           git push
