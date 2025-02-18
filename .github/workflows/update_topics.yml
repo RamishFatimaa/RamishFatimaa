@@ -1,0 +1,31 @@
+name: Update Topic Stats in README
+
+on:
+  schedule:
+    - cron: "0 0 * * *"  # Runs daily
+  workflow_dispatch:  # Allows manual trigger
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Fetch Repository Topics
+        run: |
+          echo "## 📌 Keyword Stats (Topics Used in My Projects)" > TOPICS.md
+          echo "" >> TOPICS.md
+          curl -s -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" "https://api.github.com/users/RamishFatimaa/repos?per_page=100" | jq -r '.[] | .topics[]' | sort | uniq -c | sort -nr | while read count topic; do echo "- **$topic**: $count projects" >> TOPICS.md; done
+
+      - name: Update README
+        run: |
+          sed -i '/<!-- TOPICS START -->/,/<!-- TOPICS END -->/c\<!-- TOPICS START -->\n'$(cat TOPICS.md)'\n<!-- TOPICS END -->' README.md
+
+      - name: Commit Changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "Updated keyword stats in README" || echo "No changes to commit"
+          git push
