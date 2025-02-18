@@ -129,6 +129,11 @@
 
 ---
 
+## 📌 Keyword Stats (Topics Used in My Projects)
+<!-- TOPICS START -->
+<!-- TOPICS END -->
+
+
 ## 🌍 Portfolio
 🚀 **Explore my work here:**  
 🔗 **[View My Portfolio](https://ramishfatima.com)**  
